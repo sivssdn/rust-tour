@@ -6,24 +6,21 @@ interface Props {
 
 const Main = (header: string) => {
     return (
-        <div className="row">
-            <div className="card description-card col l7 m7 s12 pull-l1">
-                <div className=" description-container">
-                    <h3>{header}</h3>
-                    <strong>Chapter 1: Hello World</strong>
-                    <div className="section"></div>
-                    <p>
-                        The description of the chapter goes here.
+        <div className="card description-card col l6 m6 s12">
+            <div className=" description-container">
+                <h3>{header}</h3>
+                <strong>Chapter 1: Hello World</strong>
+                <div className="section"></div>
+                <p>
+                    The description of the chapter goes here.
                     </p>
-
-                </div>
             </div>
         </div>
+
     );
 }
 
 const Description: React.FC<Props> = ({ header }) => {
-    // const Description = () => {
     const css = `.description-card{
         background-color: #2f54eb;
         color: #ffffff;
