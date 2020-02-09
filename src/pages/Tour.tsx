@@ -6,7 +6,7 @@ const Tour = () => {
     return (
         <div className="container">
             <div className="section"></div>
-            <Description header="React Tour" />
+            <Description header="Rust Tour" />
         </div>
     );
 }
