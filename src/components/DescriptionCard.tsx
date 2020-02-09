@@ -13,7 +13,9 @@ const Main = (header: string) => {
                 <div className="section"></div>
                 <p>
                     The description of the chapter goes here.
-                    </p>
+                </p>
+                <div className="section"></div>
+                <a className="btn btn-medium yellow darken-4 next-chapter">Next Chapter</a>
             </div>
         </div>
 
@@ -30,6 +32,9 @@ const Description: React.FC<Props> = ({ header }) => {
     }
     .description-container{
         margin-left:8%;
+    }
+    .next-chapter{
+
     }
     `;
     return (
