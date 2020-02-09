@@ -24,7 +24,6 @@ const Tour = () => {
             <div className="section"></div>
             <div className="row">
                 <Description header={"Chapter " + chapterCount + ": " + ChapterNames[chapterCount]}
-                    nextButtonText="Next Chapter"
                     nextChapter={changeChapter}
                     chapterContent={currentChapter as unknown as React.FC}
                 />
