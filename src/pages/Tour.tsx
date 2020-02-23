@@ -6,13 +6,14 @@ import { ChapterNames, IdeLinks } from "../components/chapters/enums";
 import Chapter0 from "../components/chapters/0";
 import Chapter1 from "../components/chapters/1";
 import Chapter2 from "../components/chapters/2";
+import Chapter3 from "../components/chapters/3";
 
 
 const Tour = () => {
     const [currentChapter, setCurrentChapter] = useState(<Chapter0 />);
     const [chapterCount, setChapterCount] = useState(0);
     const chapters = [
-        <Chapter0 />, <Chapter1 />, <Chapter2 />
+        <Chapter0 />, <Chapter1 />, <Chapter2 />, <Chapter3 />,
     ];
 
     const changeChapter = () => {
