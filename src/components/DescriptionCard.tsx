@@ -17,6 +17,7 @@ const Description: React.FC<Props> = ({ header, nextChapter, chapterContent }) =
                 {chapterContent}
                 <div className="section"></div>
                 <a className="btn btn-medium yellow darken-4 next-chapter" onClick={nextChapter}>Next Chapter</a>
+                <div className="section"></div>
             </div>
         </div>
     );

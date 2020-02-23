@@ -7,7 +7,7 @@ const Chapter5: React.FC = () => {
             <br />
             The basic syantax can be seen on right.
             <div className="section"></div>
-            Let's explrore conditions next.
+            Let's explore conditions next.
         </p>
     )
 }
