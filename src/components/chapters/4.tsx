@@ -10,6 +10,8 @@ const Chapter4: React.FC = () => {
             E.g., To declare an empty string capable of storing 10 characters can be done with <code>String::with_capacity(10)</code>
             <div className="section"></div>
             <code>mut</code> keyword is required to make a variable mutable.
+            <div className="section"></div>
+            Vectors coming right up next.
         </p>
     )
 }

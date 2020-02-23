@@ -8,13 +8,14 @@ import Chapter1 from "../components/chapters/1";
 import Chapter2 from "../components/chapters/2";
 import Chapter3 from "../components/chapters/3";
 import Chapter4 from "../components/chapters/4";
+import Chapter5 from "../components/chapters/5";
 
 
 const Tour = () => {
     const [currentChapter, setCurrentChapter] = useState(<Chapter0 />);
     const [chapterCount, setChapterCount] = useState(0);
     const chapters = [
-        <Chapter0 />, <Chapter1 />, <Chapter2 />, <Chapter3 />, <Chapter4 />
+        <Chapter0 />, <Chapter1 />, <Chapter2 />, <Chapter3 />, <Chapter4 />, <Chapter5 />
     ];
 
     const changeChapter = () => {
