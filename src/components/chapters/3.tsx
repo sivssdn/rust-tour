@@ -61,7 +61,7 @@ const chapter3: React.FC = () => {
             Compound data types contains collection of scalar types.
             <br /><br />
             Tuples - A collection of values of different data types. <br />
-            Arrays - A collection of values of similar data types.
+            Arrays - A collection of values of similar data types. Arrays are of fixed length, hence cannot be re-sized.
 
             <div className="section"></div>
             Let's talk about strings next.
