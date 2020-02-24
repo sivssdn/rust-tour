@@ -11,6 +11,8 @@ const Chapter4: React.FC = () => {
             <div className="section"></div>
             <code>mut</code> keyword is required to make a variable mutable.
             <div className="section"></div>
+            Don't feel like being bothered about heap and stack? Rust requires you to think a little about it with it's ownership feature.
+            <div className="section"></div>
             Vectors coming right up next.
         </p>
     )
