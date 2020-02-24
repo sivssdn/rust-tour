@@ -10,6 +10,8 @@ const Chapter7: React.FC = () => {
             - <code>while</code> : Loop with exit conditional. <br />
             - <code>for</code> : The good old for loop.
             <div className="section"></div>
+            Loops have a label feature that can be used in conjunction with continue statement to jump.
+            <div className="section"></div>
             Functions coming up next.
         </p>
     )

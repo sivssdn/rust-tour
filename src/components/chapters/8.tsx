@@ -10,6 +10,7 @@ const Chapter8: React.FC = () => {
             To return a value from function, <code>return</code> keyword is not required.
             Specifying the return value without semicolon inside the function does the trick. <br />
             Rust also support closures. The syntactic difference is that pipe needs to be used for function arguments.
+            The scope of closures includes their enclosing function's scope along with their immediate scope.
             <div className="section"></div>
             Let's check Pointers next.
         </p>
