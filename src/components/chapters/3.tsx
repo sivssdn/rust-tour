@@ -2,7 +2,7 @@ import React from "react";
 
 const chapter3: React.FC = () => {
     return (
-        <p>
+        <div>
             Rust being a statically typed language, has data types. The primitive types contains scalar and compound data types. <br />
             <div className="section"></div>
             Few things to remember while handling data types: <br />
@@ -64,8 +64,10 @@ const chapter3: React.FC = () => {
             Arrays - A collection of values of similar data types. Arrays are of fixed length, hence cannot be re-sized.
 
             <div className="section"></div>
+            You can always use <code>:?</code> with {} to print the entire array or touple.
+            <div className="section"></div>
             Let's talk about strings next.
-        </p >
+        </div>
     )
 }
 

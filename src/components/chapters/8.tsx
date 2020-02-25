@@ -2,7 +2,7 @@ import React from "react";
 
 const Chapter8: React.FC = () => {
     return (
-        <p>
+        <div>
             Function <code>main</code> is the entry point of Rust programs.
             Rust follows snake case as the conventional style for function and variable names<br />
             The types of function arguments need to be defined.<br />
@@ -13,7 +13,7 @@ const Chapter8: React.FC = () => {
             The scope of closures includes their enclosing function's scope along with their immediate scope.
             <div className="section"></div>
             Let's check Pointers next.
-        </p>
+        </div>
     )
 }
 

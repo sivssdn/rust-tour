@@ -2,7 +2,7 @@ import React from "react";
 
 const Chapter7: React.FC = () => {
     return (
-        <p>
+        <div>
             Following are the control flow loops.
             <div className="section"></div>
             - <code>loop</code> : Infinite loop without any exit statement to end the loop.
@@ -12,8 +12,12 @@ const Chapter7: React.FC = () => {
             <div className="section"></div>
             Loops have a label feature that can be used in conjunction with continue statement to jump.
             <div className="section"></div>
+            Notice that you do not need parenthesis with while or if statements.
+            <div className="section"></div>
+            Try count++
+            <div className="section"></div>
             Functions coming up next.
-        </p>
+        </div>
     )
 }
 

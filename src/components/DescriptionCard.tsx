@@ -4,6 +4,7 @@ interface Props {
     header: string;
     chapterContent: React.FC;
     nextChapter: () => void;
+
 }
 
 const Description: React.FC<Props> = ({ header, nextChapter, chapterContent }) => {
@@ -16,7 +17,8 @@ const Description: React.FC<Props> = ({ header, nextChapter, chapterContent }) =
                 <div className="section"></div>
                 {chapterContent}
                 <div className="section"></div>
-                <a className="btn btn-medium yellow darken-4 next-chapter" onClick={nextChapter}>Next Chapter</a>
+                {!header.toString().includes("New Beginning")
+                    && (<a className="btn btn-medium yellow darken-4 next-chapter" onClick={nextChapter}>Next Chapter</a>)}
                 <div className="section"></div>
             </div>
         </div>
