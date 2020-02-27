@@ -4,6 +4,8 @@ This is a hands-on short tour for those thinking of diving deep into Rust, but n
 
 The tour is practise based, containing live editor where user can practice. 
 
+Web App: https://sivssdn.github.io/rust-tour/
+
 #### Index: 
 1. Hello World
 2. Ways of saying Hello World
