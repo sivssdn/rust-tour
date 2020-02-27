@@ -17,3 +17,8 @@ Web App: https://sivssdn.github.io/rust-tour/
 8. Functions
 9. Pointers
 10. Structs
+
+Web App Preview:
+
+![Rust Tour website](https://github.com/sivssdn/rust-tour/blob/master/public/screen.png)
+
