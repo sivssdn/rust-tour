@@ -1,8 +1,8 @@
-## Rust Tour
+## A Tour of Rust
 
-This is a hands-on short tour for those thinking of diving deep into Rust, but need a basic sense of syntax before going further.
+This is a hands-on short rust tutorial for those thinking of diving deep into Rust, but need a basic sense of syntax before going further.
 
-The tour is practise based, containing live editor where user can practice. 
+The Rust tour is practise based, containing live editor where you can practice. 
 
 Web App: https://sivssdn.github.io/rust-tour/
 
